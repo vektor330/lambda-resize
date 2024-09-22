@@ -22,8 +22,11 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build with Gradle
-        run: ./gradlew build --tests "cz.vektor330.ImageResizeHandlerTest"
+    #  - name: Build with Gradle
+    #    run: ./gradlew build
+
+      - name: Test with Gradle
+        run: ./gradlew test --tests "cz.vektor330.ImageResizeHandlerTest"
 
     # Uncomment the following step if you want to run integration tests
     # Note: You'll need to set up AWS credentials as secrets in your GitHub repository
