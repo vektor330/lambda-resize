@@ -62,7 +62,7 @@ The Lambda function expects a JSON input with the following structure:
 
 ```json
 {
-  "image": "base64EncodedImageString",
+  "image": "iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFUlEQVR42mP8z8BQz0AEYBxVSF+FABJADveWkH6oAAAAAElFTkSuQmCC",
   "width": "300",
   "height": "200"
 }
